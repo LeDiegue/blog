@@ -13,7 +13,16 @@
  *= require_tree .
  *= require_self
  */
-
+body {
+	background-color: #414141;
+}
+.main {
+	background-color: white;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin: 10px auto 0;
+	width: 1200px;
+}
 header {
 	background: #800909;
 	
